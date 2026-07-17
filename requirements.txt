@@ -1,0 +1,20 @@
+torch>=2.0
+torchvision
+numpy
+pandas
+scipy
+matplotlib
+nibabel
+SimpleITK
+h5py
+transformers
+tokenizers
+einops>=0.6
+ftfy
+regex
+beartype
+torchtyping
+vector-quantize-pytorch==1.1.2
+tqdm
+# fVLM backbone only:
+# salesforce-lavis
