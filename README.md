@@ -10,8 +10,8 @@ models
 ```bash
 conda create -n carve python=3.10 -y && conda activate carve
 pip install -r requirements.txt
-pip install -e third_party/transformer_maskgit
-pip install -e third_party/CT_CLIP
+pip install -e external/transformer_maskgit
+pip install -e external/CT_CLIP
 ```
 
 ## Models and data
@@ -76,7 +76,7 @@ src/
   pipeline_luna/  pipeline_ccii/   dataset-specific loaders
 scripts/                       run scripts, weight download
 analysis/                      shard merge, metric tables, figures
-third_party/
+external/
   CT_CLIP/  transformer_maskgit/   model packages (editable installs)
 ```
 

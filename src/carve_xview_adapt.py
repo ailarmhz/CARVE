@@ -52,7 +52,7 @@ import torch
 import torch.nn.functional as F
 
 _SCRIPT_DIR = Path(__file__).resolve().parent
-_TM_REPO = str(_SCRIPT_DIR.parent / "third_party" / "transformer_maskgit")
+_TM_REPO = str(_SCRIPT_DIR.parent / "external" / "transformer_maskgit")
 sys.path.insert(0, str(_SCRIPT_DIR / "pipeline"))
 sys.path.insert(0, str(_SCRIPT_DIR))
 sys.path.insert(0, _TM_REPO)

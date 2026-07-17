@@ -16,7 +16,7 @@ import numpy as np, pandas as pd, torch, torch.nn as nn, torch.nn.functional as 
 import nibabel as nib
 
 R = Path(__file__).resolve().parent
-for p in [str(R), str(R/"pipeline"), str(R.parent/"third_party"/"transformer_maskgit")]:
+for p in [str(R), str(R/"pipeline"), str(R.parent/"external"/"transformer_maskgit")]:
     sys.path.insert(0, p)
 for m in list(sys.modules):
     if m.startswith("transformer_maskgit"):
