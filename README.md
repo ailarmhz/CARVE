@@ -1,5 +1,7 @@
 # CARVE: Cardinality-Aware Retained-View Entropy for Test-Time Adaptation of Zero-Shot 3D CT VLMs
 
+![CARVE framework](assets/framework.png)
+
 Test-time adaptation for zero-shot prompt-pair multi-label 3D CT vision-language
 models (CT-CLIP and fVLM), with the CARVE objective and baselines
 (No-TTA, TENT, ML-TTA, BEM).
